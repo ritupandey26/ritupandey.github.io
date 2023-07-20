@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>Ritu Pandey | Portfolio</title>
+  <!--!================= Bootstrap Css =================------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <!--!================= Font Awesome =================------->
+  <script src="https://kit.fontawesome.com/ff75adb155.js" crossorigin="anonymous"></script>
+
+  <!--!================= github stats =================------->
+  <link rel="stylesheet" href="assets/css/github_states.css" />
+
+  <!--!================= main =================------->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/media_queries.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+</head>
+<style></style>
+
+<body>
+  <!--!================= Header =================------->
+  <section id="nav-menu" class="navigation">
+    <div class="nav_container">
+      <div class="nav_logo">
+        <h4>Ritu <span>Pandey</span></h4>
+      </div>
+      <!-- Menu toggle icon for small device -->
+      <div id="menuToggle">
+        <span id="first_span"></span>
+        <span id="second_span"></span>
+        <span id="third_span"></span>
+      </div>
+      <div class="navigation_box" id="navigation_box">
+        <!-- Collapse button -->
+        <ul>
+          <li class="nav-link home" id="nav-link">
+            <a href="#home">Home</a>
+          </li>
+          <li class="nav-link about" id="nav-link">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav-link projects" id="nav-link">
+            <a href="#projects">Project</a>
+          </li>
+          <li class="nav-link skills" id="nav-link">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="nav-link contact" id="nav-link">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button id="resume-button-1">
+          <a download="Ritu_Pandey_Resume.pdf" href="./assets/pdf/Ritu_Pandey_Resume.pdf"
+            class="nav-link resume" id="resume-link-1">RESUME</a>
+        </button>
+        <!-- <button  id="resume-button-1" >RESUME</button> -->
+      </div>
+    </div>
+  </section>
+
+  <!--!================= left Section =================------->
+  <div class="left_pannel">
+    <div class="icon_container">
+      <!-- github -->
+      <a href="https://github.com/ritupandey26" id="contact-github" target="_blank"><svg
+          xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+          <title>GitHub</title>
+          <path
+            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+          </path>
+        </svg>
+      </a>
+      <!-- linkdin -->
+      <a href="https://www.linkedin.com/in/ritu-pandey-822857160/" id="contact-linkedin" aria-label="Linkedin"
+        target="_blank" rel="noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+          <title>Linkdin</title>
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+          <rect x="2" y="9" width="4" height="12"></rect>
+          <circle cx="4" cy="4" r="2"></circle>
+        </svg>
+      </a>
+      <!-- phone -->
+      <a href="tel:+919863448792" id="contact-phone" aria-label="Phone" target="_blank" rel="noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="feather feather-phone-call">
+          <title>9863448792</title>
+          <path
+            d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+          </path>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!--!================= Right Section =================------->
+  <div class="right_pannel">
+    <div class="email_container">
+      <a href="mailto:ritupandey2631@gmail.com" id="contact-email">ritupandey2631@gmail.com</a>
+    </div>
+  </div>
+
+  <!--!================= Main Section =================------->
+  <section class="main_pannel" id="main_section">
+    <!--!================= Home Section =================------->
+    <section id="home" class="home section">
+      <div class="home_container">
+        <h3>Hi, my name is</h3>
+        <h1 id="user-detail-name">Ritu Pandey</h1>
+        <h1>And I'm a <br /><span class="multiple-text"></span></h1>
+        <!-- <h1 id="name_text">Full Stack <span>Web Developer</span></h1> -->
+        <p id="user-detail-intro"></p>
+        <a href="#contact">Contact Me<i class="fa-regular fa-message"></i></a>
+      </div>
+    </section>
+
+    <!--!================= About Section =================------->
+    <section id="about" class="about section">
+      <div class="section_title">
+        <span>About Me</span>
+      </div>
+      <div class="about_container">
+        <div class="about_left">
+
+          <p>
+            Hello! I'm Ritu Pandey, A results-driven data analyst located in
+            (Dimapur)India, With a strong background in statistical analysis,
+            data visualization, and data-driven decision making. Possessing
+            excellent problem-solving skills and a keen attention to detail,
+            With a solid foundation in programming languages such as Python
+            and SQL, along with expertise in tools like Power BI and Excel, I
+            am adept at extracting, cleaning, and analyzing complex datasets.
+            As a highly motivated individual, I thrive in fast-paced
+            environments and enjoy tackling challenging analytical problems to
+            improve operational efficiency and optimize strategies. Seeking to
+            leverage my skills and experience to contribute to a dynamic
+            organization's data-driven initiatives.
+          </p>
+          <h5>Here are my EDUCATION:</h5>
+          <div class="about_stats">
+            <div>
+              <span class="stats_number">Data Science</span>
+              <span class="stats_title">Intellipaat</span>
+              <span class="stats_title">Bangalore, India(2023)</span>
+            </div>
+            <div>
+              <span class="stats_number">Bachelor of Computer Application</span>
+              <span class="stats_title">ICFAI University Nagaland</span>
+              <span class="stats_title">Nagaland, India(2018)</span>
+            </div>
+            <div id="twelth">
+              <span class="stats_number">HSSLC(science)</span>
+              <Living class="stats_title">Living stone foundation Hr.Sec. School</span>
+                <span class="stats_title">Dimapur, India(2015)</span>
+            </div>
+          </div>
+
+          <button id="resume-button-2">
+            <a download="Ritu_Pandey_Resume.pdf" target="_blank"
+              href="./assets/pdf/Ritu_Pandey_Resume.pdf" id="resume-link-2">Download CV<i
+                class="fa-solid fa-download"></i></a>
+          </button>
+          <!-- <button id="resume-button-1">Download CV</button> -->
+        </div>
+        <div class="about_right">
+          <div class="about_img_container" class="home-img">
+            <img src="./assets/img/ritu.png" alt="ritu-pandey" class="home-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--!================= Project Section =================------->
+    <section id="projects" class="projects section">
+      <!-- section heading -->
+      <div class="section_title">
+        <span>My Projects</span>
+      </div>
+      <!-- Walmart -->
+      <div id="project-container">
+        <div class="project-card">
+          <h2 class="project-title">Retail Analysis with Walmart Data</h2>
+          <div class="project-description">
+            <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+            <p>Historical sales data for 45 Walmart stores located in different regions are available.
+              There are certain events and holidays which impact sales on each day.
+              The business is facing a challenge due to unforeseen demands and runs out of stock some times,
+              due to inappropriate machine learning algorithm. Walmart would like to predict the sales and demand
+              accurately.
+              An ideal ML algorithm will predict demand accurately and ingest factors like economic conditions including
+              CPI, Unemployment Index, etc.
+              The objective is to determine the factors affecting the sales and to analyze the impact of markdowns
+              around holidays on the sales.</p>
+              
+  
+          </div>
+          <div class="project-tech-stack">
+            <span>Python</span>
+            <span>Numpy</span>
+            <span>Pandas</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
+            <span>Scikit-learn (Sklearn)</span>
+          </div>
+          <div class="project_btn">
+            <a href="https://github.com/ritupandey26/Walmart_Capstone_Python" class="project-github-link"
+              target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-github">
+                <title>GitHub</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+            </a>
+            <a                
+                href="https://drive.google.com/file/d/1rp6jqEZGZgHtnDIjUgmQu9sgW-8N5POc/view?usp=sharing"                
+                class="project-deployed-link"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-external-link"
+                >
+                  <title>Report Link</title>
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  ></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+    
+          </div>
+        </div>
+        <!-- online retail -->
+        <div class="project-card">
+          <h2 class="project-title">Online Retail Analysis</h2>
+          <div class="project-description">
+            <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+            <p>This project aims to analyze the data of an online retail store to gain valuable insights into customer behavior,
+               sales trends, and operational efficiency. By leveraging data analysis techniques,
+               the online retail store can make data-driven decisions to optimize marketing strategies,
+               improve customer experience, and enhance overall business performance.
+              Analyzed customer purchasing patterns in an online retail store.
+              Identified valuable insights and purchasing behavior segments to aid the retailer in understanding
+              customer preferences. Devised actionable strategies for enhancing sales and
+              marketing efforts based on the insights gained
+            </p>
+  
+          </div>
+          <div class="project-tech-stack">
+            <span>Python</span>
+            <span>Numpy</span>
+            <span>Pandas</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
+            <span>Scikit-learn (Sklearn)</span>
+          </div>
+          <div class="project_btn">
+            <a href="https://github.com/ritupandey26/ONLINE_RETAIL_PYTHON" class="project-github-link"
+              target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-github">
+                <title>GitHub</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+            </a>
+            <a
+                href="https://drive.google.com/file/d/1i15Tjt9sPC1IOQ4No5hEbLu5FZIDLPP4/view?usp=sharing" 
+                class="project-deployed-link"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-external-link"
+                >
+                  <title>Report Link</title>
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  ></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            
+          </div>
+        </div>
+        <!-- powerbi -->
+        <div class="project-card">
+          <h2 class="project-title">Dashboard to track and analyze sales Data</h2>
+          <div class="project-description">
+            <img id="powerbi-logo" src="./assets/img/icon/power-bi.svg" />
+            <p>This project focuses on developing an interactive dashboard using Power BI to track and analyze sales data. 
+              The dashboard will provide an intuitive and visually appealing interface for users to explore sales trends, 
+              customer behavior, product performance, and other relevant metrics. By leveraging the capabilities of Power BI, 
+              the project aims to empower decision-makers with actionable insights for optimizing sales strategies and improving business performance.
+            </p>
+  
+          </div>
+          <div class="project-tech-stack">
+            <span>PowerBI</span>
+            
+          </div>
+          <div class="project_btn">
+            <a href="https://github.com/ritupandey26/powerbi_Dashboard_Bibha_ecommerce" class="project-github-link"
+              target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-github">
+                <title>GitHub</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+            </a>
+            <a
+                href="https://drive.google.com/file/d/1CvbFR_-Ux4FbvZyxgGstwimdPJY8L7se/view?usp=sharing" 
+                class="project-deployed-link"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-external-link"
+                >
+                  <title>Report Link</title>
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  ></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            
+          </div>
+        </div>
+        <!-- covit-19 -->
+        <div class="project-card">
+          <h2 class="project-title">Exploratory Analysis - Covid 19</h2>
+          <div class="project-description">
+            <img id="powerbi-logo" src="./assets/img/icon/ms_sql.png" />
+            <p>This project focuses on analyzing COVID-19 data using SQL to gain insights into the spread of the virus, 
+              track its impact on various regions, and explore patterns and trends over time. 
+              By leveraging SQL's querying capabilities, data manipulation, 
+              and aggregation functions, we can extract meaningful information 
+              from the available COVID-19 datasets. The dataset contains details of cases, deaths, and vaccinations. This analysis is based on real data about covid 19 from March 2020 to July 2021 using MS SQL. </p> 
+  
+          </div>
+          <div class="project-tech-stack">
+            <span>MS SQL</span>
+            <span>MS Excel</span>
+            
+          </div>
+          <div class="project_btn">
+            <a href="https://github.com/ritupandey26/PortfolioProjectSql" class="project-github-link"
+              target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-github">
+                <title>GitHub</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+            </a>
+            <a
+                href="https://drive.google.com/file/d/1N3t77QvRO8JppW-lJB7L6m30rhCxpTRe/view?usp=sharing" 
+                class="project-deployed-link"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-external-link"
+                >
+                  <title>Report Link</title>
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  ></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+      
+        
+
+     
+    </section>
+
+    <!--!================= Skills Section =================------->
+    <section id="skills" class="skills section">
+      <!-- section heading -->
+      <div class="section_title">
+        <span>Skills</span>
+      </div>
+      <div class="skills_container">
+        <div class="frontend-skills">
+          <h1>Tech Stacks</h1>
+          <div class="fs_container">
+            <div class="skills-card">
+              <div class="skills-card-img" style="display: none"></div>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                class="skills-card-img" alt="html5" />
+              <span class="skills-card-name">Python</span>
+            </div>
+            <div class="skills-card">
+              <div class="skills-card-img" style="display: none"></div>
+              <img src="./assets/img/icon/ms_sql.png"
+                class="skills-card-img" alt="css3" />
+              <span class="skills-card-name">MS SQL Server</span>
+            </div>
+            <div class="skills-card">
+              <div class="skills-card-img" style="display: none"></div>
+              <img src="./assets/img/icon/power-bi.svg"
+                class="skills-card-img" alt="JavaScript" />
+              <span class="skills-card-name">Power Bi</span>
+            </div>
+            <div class="skills-card">
+              <div class="skills-card-img" style="display: none"></div>
+              <img src="./assets/img/icon/ms-excel.svg"
+                class="skills-card-img" alt="react" />
+              <span class="skills-card-name">MS Excel</span>
+            </div>
+            
+            <div class="skills-card">
+              <div class="skills-card-img" style="display: none"></div>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                class="skills-card-img" alt="nodejs" />
+              <span class="skills-card-name">HTML</span>
+            </div>
+            <div class="skills-card">
+              <div class="skills-card-img" style="display: none"></div>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg "
+                class="skills-card-img" alt="mongodb" />
+              <span class="skills-card-name">CSS</span>
+            </div>
+          </div>
+        </div>
+        <div class="backend-skills">
+          <h1>Tools & Libraries</h1>
+          <div class="bs_container">
+            <div class="skills-card">
+              <div class="skills-card-img" style="display: none"></div>
+              <img src="./assets/img/icon/file-type-jupyter.svg"
+                class="skills-card-img" alt="vscode" />
+              <span class="skills-card-name">Jupyter</span>
+            </div>
+            <div class="skills-card">
+              <div class="skills-card-img" style="display: none"></div>
+              <img src="https://pandas.pydata.org/static/img/pandas_mark.svg"
+                class="skills-card-img" alt="vscode" />
+              <span class="skills-card-name">Pandas</span>
+            </div>
+
+            
+            <div class="skills-card">
+              <div class="skills-card-img" style="display: none"></div>
+              <img src="https://seeklogo.com/images/M/matplotlib-logo-7676870AC0-seeklogo.com.png"
+                class="skills-card-img" alt="github" />
+              <span class="skills-card-name">Matplotlib</span>
+            </div>
+
+            <div class="skills-card">
+              <div class="skills-card-img" style="display: none"></div>
+              <img src="https://seeklogo.com/images/S/seaborn-logo-244EB2DEC5-seeklogo.com.png" class="skills-card-img" alt="chakraUI" />
+              <span class="skills-card-name">Seaborn</span>
+            </div>
+            <div class="skills-card">
+              <div class="skills-card-img" style="display: none"></div>
+              <img src="https://logos-download.com/wp-content/uploads/2021/01/Scikit_Learn_Logo.svg" />
+              <span class="skills-card-name">Scikit Learn</span>
+            </div>
+            <div class="skills-card">
+              <div class="skills-card-img" style="display: none"></div>
+              <img src="./assets/img/icon/numpy-svgrepo-com.svg" class="skills-card-img" alt="github" />
+              <span class="skills-card-name">Numpy</span>
+            </div>
+            <div class="skills-card">
+              <div class="skills-card-img" style="display: none"></div>
+              <img src="https://www.svgrepo.com/show/217753/github.svg" class="skills-card-img" alt="github" />
+              <span class="skills-card-name">Github</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!--!================= Contact =================------->
+    <section id="contact">
+      <div class="section_title">
+        <span>Contact</span>
+      </div>
+      <!-- ----- for mobile screen ---- -->
+      <!-- ----- for desktop screen ---- -->
+      <div class="contact_layout_container">
+        <div class="contact-mobile-active">
+          <span>Get in Touch </span>
+          <p>
+            I'm looking for new opportunities, my inbox is always open.
+            Whether you have a question or just want to say hi, I’ll be so
+            happy to connect with you!
+          </p>
+          <a href="mailto:ritupandey2631@gmail.com" id="contact-email">Say Hello</a>
+        </div>
+        <div class="contact-info-container">
+          <a target="_blank" href="tel:+919863448792" class="contact-info-card">
+            <img src="./assets/img/icon/phone-call.svg" alt="" />
+            <span> Call Me</span>
+            <span> +91 9863448792</span>
+          </a>
+          <a target="_blank" href="mailto:ritupandey2631@gmail.com" class="contact-info-card">
+            <img src="./assets/img/icon/mail.svg" alt="" />
+            <span>Write Me</span>
+            <span>ritupandey2631@gmail.com</span>
+          </a>
+          <a target="_blank" href="https://github.com/ritupandey26" class="contact-info-card">
+            <img src="./assets/img/icon/github.svg" alt="" />
+            <span>Checkout</span>
+            <span>Ritu Pandey</span>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/ritu-pandey-822857160/" class="contact-info-card">
+            <img src="./assets/img/icon/linkedin.svg" alt="" />
+            <span>Ping Me</span>
+            <span>Ritu Pandey</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <div class="mobile_footer_icons">
+          <div>
+            <a target="_blank" href="https://github.com/ritupandey26"><img src="./assets/img/icon/github.svg"
+                alt="" /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/ritu-pandey-822857160/"><img
+                src="./assets/img/icon/linkedin.svg" alt="" /></a>
+            <a target="_blank" href="tel:+919863448792"><img src="./assets/img/icon/phone-call.svg" alt="" /></a>
+
+            <a target="_blank" href="mailto:ritupandey2631@gmail.com"><img src="./assets/img/icon/mail.svg" alt="" /></a>
+          </div>
+        </div>
+        <p>
+          Designed & Built by
+          <a target="_blank" href="https://www.linkedin.com/in/ritu-pandey-822857160/">Ritu Pandey
+          </a>
+        </p>
+      </div>
+    </section>
+  </section>
+
+  <!-- !--==================== SCROLL TOP ====================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+  </a>
+
+  <!--!=========== Bootstrp Script ============------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+<!--==================== GITHUB STATES LIBRARY ====================-->
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+<script>
+  GitHubCalendar(".Github-calendar", "ARahimLaskar", { responsive: true });
+</script>
+
+<!--==================== GITHUB STATES LIBRARY ====================-->
+<script src="./js/main.js"></script>
+
+</html>
